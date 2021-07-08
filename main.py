@@ -4,12 +4,10 @@ from randomsearch import search
 
 num = random.randint(1000, 10000)
 
-val = random.randint(0,3)
+val = random.randint(0,2)
 
-if val == 3:
+if val == 2:
 	url = (f"https://www.youtube.com/results?search_query={search()}")
-elif val == 2:
-	url = (f"https://www.youtube.com/results?search_query=IMG+0{num}")
 elif val == 1:
 	url = (f"https://www.youtube.com/results?search_query=MOV+0{num}")
 else:
